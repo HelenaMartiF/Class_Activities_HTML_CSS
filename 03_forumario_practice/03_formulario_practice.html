@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="03_formulario_practice.css">
+</head>
+
+<body>
+    <form>
+        <div class="supercontainer">
+            <div class="container">
+                <label for="input-name">Nom:</label>
+                <input type="text" id="input-name" class="input-myform" name="input-name" placeholder="Nom"><br>
+
+                <label for="input-surname1">Primer cognom:</label>
+                <input type="text" id="input-surname1" class="input-myform" name="lastName1" placeholder="Primer cognom"><br>
+        
+                <label for="input-surname2">Segon cognom:</label>
+                <input type="text" id="input-surname2" class="input-myform" name="lastName2" placeholder="Segon cognom"><br>
+            
+            
+                <label for="input-email">Correu electrònic:</label>
+                <input type="text" id="input-email" class="input-myform2" name="correo" placeholder="Correu electrònic"><br>
+
+                <label for="input-phone">Teléfon:</label>
+                <input type="text" id="input-phone" class="input-myform3" name="telefono" placeholder="Teléfon"><br>
+            
+
+                <p>Eres mayor de edad:</p>
+                <label for="age">Si</label>
+                <input type="radio" id="si" name="age" value="si"><br>
+
+                <label for="aptn">No</label>
+                <input type="radio" id="no" name="age" value="no"><br>
+            </div>
+
+        </div>
+    </form>
+
+    <script>
+        function checkForm() {
+
+
+
+            const nameofClient = document.querySelector("#nombre");
+            const lastName1 = document.querySelector("#lastName1");
+            const lastName2 = document.querySelector("#lastName2");
+            const telefono = document.querySelector("#telefono");
+            const correo = document.querySelector("#correo");
+            const age = document.querySelector("#age");
+
+
+            console.log(nombre, lastName1, lastName2, telefono, correo)
+
+            if (nameofClient.value != "" && lastName1.value != "" && lastName2.value != "" && telefono.value != "" && correo.value != "") {
+                alert("Es correcto")
+            }
+            else {
+                alert("Error")
+            }
+        }
+
+
+    </script>
+    
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form-data">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name">
+            <label for="surname">Primer Apellido</label>
+            <input type="text" id="surname" name="surname">
+            <label for="surname2">Segundo Apellido</label>
+            <input type="text" id="surname2" name="surname2">
+            <label for="e-mail">Introduzca su correo electronico</label>
+            <input type="email" id="e-mail" name="e-mail">
+            <div class="opt">
+                <p>¿Eres mayor de edad?</p>
+                <div class="opty">
+                    <label for="age">Si</label>
+                    <input type="radio" id="age" name="age" value="Si">
+                </div>
+                <div class="opty">
+                    <label class="optn" for="age">No</label>
+                    <input type="radio" id="age" name="age" value="No">
+                </div>
+            </div>
+        </form>
+
+        <script>
+            function checkForm() {
+
+
+
+                const nameofClient = document.querySelector("#nombre");
+                const lastName1 = document.querySelector("#lastName1");
+                const lastName2 = document.querySelector("#lastName2");
+                const telefono = document.querySelector("#telefono");
+                const correo = document.querySelector("#correo");
+                const age = document.querySelector("#age");
+
+
+                console.log(nombre, lastName1, lastName2, telefono, correo)
+
+                if (nameofClient.value != "" && lastName1.value != "" && lastName2.value != "" && telefono.value != "" && correo.value != "") {
+                    alert("Es correcto")
+                }
+                else {
+                    alert("Error")
+                }
+            }
+        </script>
+
+    </div>
+</body>
+</html> -->

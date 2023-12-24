@@ -1,0 +1,64 @@
+.sq {
+    height: 40px;
+    width: 200px;
+
+}
+
+.red {
+    background-color: red;
+    position: relative;
+}
+
+.yellow {
+    background-color: yellow;
+    position: relative;
+}
+
+.sq2 {
+    height: 200px;
+    width: 40px;
+}
+
+.blue {
+    background-color: blue;
+    position: relative;
+}
+
+.white {
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.lafranse {
+    position: relative;
+    margin-top: 20px
+}
+
+.middle {
+    position: relative;
+    top: -200px;
+    left: 40px;
+}
+
+.end {
+    position: relative;
+    left: 80px;
+    top: -400px;
+}
+
+.square {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: -350px;
+}
+
+.line1 {
+    height: 40px;
+    width: 200px;
+}
+
+.white1 {
+    background-color: green;
+    position: relative;
+}

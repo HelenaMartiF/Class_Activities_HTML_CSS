@@ -1,0 +1,19 @@
+.first_line {
+    border: 1px solid black;
+    min-height: 25px;
+    border-radius: 10px;
+    background-color: rgb(86, 86, 86);
+    padding: 10px;
+    text-align: center;
+}
+
+label, p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+ .mother_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1010px;
+    min-width: 550px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: grey;
+ }
+
+ .squarePink {
+    background-color: rgb(226, 150, 241);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 148px;
+    max-width: 1080px;
+    margin: 10px;
+    height: 120px;
+    width: 50px;
+ }
+
+ .squarePurple{
+    background-color: rgb(158, 128, 240);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 148px;
+    max-width: 1080px;
+    margin: 10px;
+    height: 120px;
+    width: 50px;
+ }
+
+ .squareBlue{
+    background-color: rgb(133, 181, 243);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 148px;
+    max-width: 1080px;
+    margin: 10px;
+    height: 120px;
+    width: 50px;
+ }

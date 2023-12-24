@@ -1,0 +1,79 @@
+
+
+#title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family:Arial;
+    text-align: center;    
+}
+
+.separador {
+    height: 4px;
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    background: #c4c4c4;
+    color: #070404;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+}
+
+.separador-titulo {
+    height: 4px;
+    width: 30%;
+    background-color: blueviolet;
+    margin-left: 685px;
+
+}
+
+.title-content {
+    font-family: Arial;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-content td, th {
+    border: 1px solid #333;
+    padding: 5px;
+    text-align: center;
+    }
+
+.table-content {
+    border: 1px solid #333
+}
+
+#company {
+    font-family: Arial;
+    }
+
+#year {
+    font-family: Arial;
+    }
+
+#job-description {
+    font-family: Arial;
+    }
+
+.blue {
+    background-color: rgb(93, 168, 230);
+}
+
+.green {
+    background-color: rgb(103, 160, 103);
+}
+
+.purple {
+    background-color: rgb(138, 58, 138);
+}
+
+

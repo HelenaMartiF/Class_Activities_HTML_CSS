@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background-color: rgb(214, 219, 219);
+}
+
+#title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family:Arial;
+    text-align: center;    
+}
+
+.tarjeta {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(241, 239, 243);
+    color: #070404;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.second-title {
+    text-decoration: underline;
+}
+
+.left-side {
+    display:block;
+    justify-content: center;
+    
+}
+

@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px black dotted;
+    background-color: rgb(182, 178, 178);
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 30px;
+    
+}
+
+.picture {
+    border-radius: 100%;
+    border: 5px rgb(247, 1, 193) solid;
+    margin-top: 20px;
+}
+
+.title {
+    color: rgb(247, 1, 193)
+}
+
+.date {
+    border: 5px rgb(247, 1, 193) dotted;
+    border-radius: 5px;
+}
+
+.explanation {
+    text-decoration: underline 3px rgb(247, 1, 193);
+}
+
+.tobring {
+    list-style-type: decimal-leading-zero;
+    color:rgb(247, 1, 193)
+}
+
+.ubication {
+    text-decoration: none;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* .container {
+    display: flex;
+}
+
+.main-picture {
+
+}
+ */
+
+
+
+
+/* .background-picture {
+    background-image: url('../flex_practice/pictures/xoxines.webp');
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+.tokorea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: -590px;
+    font-weight: bold;
+    color: rgb(224 22 208);
+    
+}
+
+.big {
+    font-size: 20px;
+} */
+
+
+
